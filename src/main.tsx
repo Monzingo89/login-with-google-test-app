@@ -22,7 +22,7 @@ function App() {
       subtitle="This separate public test app uses the existing VCV Firebase project."
       footer={
         <span>
-          Auth <code>74b5ac3</code> + theme <code>a5fc199</code>
+          Auth <code>02750fd</code> + theme <code>a5fc199</code>
         </span>
       }
     />
