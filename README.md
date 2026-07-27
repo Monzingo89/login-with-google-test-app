@@ -1,8 +1,14 @@
 # login-with-google test app
 
-Public integration fixture for [`Monzingo89/login-with-google`](https://github.com/Monzingo89/login-with-google).
+Public integration fixture for
+[`Monzingo89/login-with-google`](https://github.com/Monzingo89/login-with-google)
+and its separately packaged
+[`Monzingo89/login-with-google-theme`](https://github.com/Monzingo89/login-with-google-theme).
 
-The application installs an exact package commit from GitHub and initializes it with VCV's existing Firebase web application configuration. Real values stay in the untracked `.env.local`; this repository contains placeholders only.
+The application installs exact auth and theme package commits from their public
+GitHub repositories and initializes the auth package with VCV's existing
+Firebase web application configuration. Real values stay in the untracked
+`.env.local`; this repository contains placeholders only.
 
 ```bash
 cp .env.example .env.local
@@ -13,7 +19,7 @@ npm run dev
 
 ## Current live verification
 
-- Package installation from the pinned public GitHub commit: passed
+- Installation of both pinned public GitHub packages: passed
 - TypeScript and production build: passed
 - Firebase initialization with the VCV project/app configuration: passed
 - Desktop and mobile responsive rendering: passed

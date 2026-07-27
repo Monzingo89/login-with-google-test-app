@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "firebase": "^12.13.0",
-    "login-with-google": "github:Monzingo89/login-with-google#98245b36da7a88249f17085bfb3060bf0ec2f703",
+    "login-with-google": "github:Monzingo89/login-with-google#02750fd1b09688330994f0e7ea14e98db334321e",
+    "login-with-google-theme": "github:Monzingo89/login-with-google-theme#a5fc19994301419d8b94f6ab8e9c64ba21db9010",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
